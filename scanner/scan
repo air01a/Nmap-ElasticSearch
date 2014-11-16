@@ -1,0 +1,14 @@
+#!/bin/bash
+while [ $(wc -l subnet.ip | cut -d" " -f1 ) -ne 0 ] ; do
+	while [ -f "lock" ] ; do
+		sleep 1
+	done
+	touch lock
+	subnet=$(head -1 subnet.ip)
+	grep -v "$subnet" subnet.ip > subnet.tmp
+	mv subnet.tmp subnet.ip
+	rm lock
+	echo "Scanning $subnet"
+	time ./script.py $subnet >> result 2>&1
+	echo "$subnet" >> subnetscanned.ip
+done

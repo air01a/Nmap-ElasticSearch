@@ -1,0 +1,499 @@
+/**/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*       'Open Sans', sans-serif     */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+/*       'Open Sans Condensed', sans-serif*/
+
+@import "../css/reset.css";
+@import "../css/grid.css";
+@import "../css/superfish.css";
+
+input {
+	outline:  none !important;
+	border-radius: 0 !important;	 
+}
+
+
+html {
+	width: 100%;
+}
+
+
+* {
+	-webkit-text-size-adjust: none;
+}
+
+
+body {
+	font: 14px/20px  Arial, Helvetica, sans-serif;
+	color:#a1a1a1;
+	background-color: #000000;
+	position:relative;
+	min-width:960px;
+
+
+}
+
+.searchbox {
+	text-align: right;
+	margin: auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif ;
+	color: #000000;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 35px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 20px;
+	line-height: 33px;
+	padding-top: 22px;
+	margin-bottom: 12px;
+	background: url(../images/h3_bg.png) 0 74px repeat-x;
+}
+
+
+
+
+
+
+.page1 h3 {
+	background-position: 0 13px;
+	padding-top: 0;
+	margin-bottom: 12px;
+}
+
+
+h3 span {
+	padding: 0 36px;
+	background-color: #fff;
+	display: inline-block;
+}
+h2>span {
+	padding-top: 18px;
+	color: #abaaaa;
+
+	display: block;
+	font-size: 24px;
+	line-height: 33px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+address {
+	font-style: normal;
+}
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+/*links*/
+
+a {
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+	transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-webkit-transition: 0.5s ease;
+}
+
+a:hover {
+	color: #000000;
+	
+}
+
+
+
+/*preclass*/
+
+
+
+
+
+
+
+.img_inner {
+	max-width: 100%;
+	 -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ box-sizing: border-box;
+	margin-bottom: 19px;
+ position: relative;
+}
+
+.fleft {
+	float: left;
+	margin-right: 18px;
+	margin-top: 5px;	
+	margin-bottom: 0px;
+}
+
+.page1 .fleft {
+	margin-top: 1px;
+	margin-right: 22px;
+}
+
+
+
+.extra_wrapper {
+	overflow: hidden;
+}
+.clear {
+	float: none !important;
+	clear: both;
+}
+
+
+/*header*/
+
+header {
+	display: block;
+	position: relative;
+	z-index: 50;
+	padding: 31px 0 29px;
+}
+
+
+h1 {
+	float: left;
+	z-index: 999;
+
+}
+
+
+/*Content*/
+
+.col1 {
+	color: #CC0000;
+}
+
+
+
+.content {
+	background-color: #fff;
+	padding-bottom: 68px;
+}
+
+.page1 .content {
+	padding-bottom: 70px;
+
+}
+
+
+
+
+
+
+
+blockquote {
+	padding-top: 1px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pb1 {
+	padding-bottom: 7px;
+}
+
+
+
+/****Map***/
+
+
+
+
+
+
+
+
+
+
+
+/************Footer***********/
+
+footer {
+	display: block;
+	padding: 23px 0 ;
+	font-size: 12px;
+	color: #d7d7d7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.lst ul {
+  list-style-type: none;
+  width: 900px;
+}
+ 
+.lst h6 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+.lst li img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+ 
+ 
+.lst li {
+  padding: 10px;
+  overflow: auto;
+}
+ 
+.lst li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.pagelink {
+	text-color:#FFF;
+	font: 12pt normal Arial, sans-serif;
+	margin-left: auto;
+        margin-right: auto;
+        position:relative;
+
+}
+
+.pagelink:hover{
+	  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 5;
+
+}
+
+
+
+
+/* Image Box Style */
+
+/* Caption Common Style */
+
+
+/** Caption 1: Simple **/
+
+/** Caption 2: Full Width & Height **/
+
+/** Caption 3: Fade **/
+
+/** Caption 4: Slide **/
+
+/** Caption 5: Rotate **/
+
+
+/** Caption 6: Scale **/
+
+
+
+/** Simple Caption :hover Behaviour **/
+
+/** Full Caption :hover Behaviour **/
+
+/** Fade Caption :hover Behaviour **/
+
+/** Slide Caption :hover Behaviour **/
+
+/** Rotate Caption :hover Behaviour **/
+
+.boxcontainer {
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+.box {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  line-height: 40px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+	
+}
+
+.boxblue {
+   background: #3498db;
+}
+
+
+.boxblue:hover {
+  background: #3cb0fd;
+}
+
+.boxred {
+   background: #eb0000;
+}
+
+
+.boxred:hover {
+  background: #d93434;
+}
+
+.boxgreen {
+   background: #00A900;
+}
+
+
+.boxgreen:hover {
+  background: #01D201;
+}
+
+.imageleft {
+	float:left;
+}
+
+.imageright {
+	float:right;
+}
+
+
+
+.photos_wrapper {
+        display: inline-block;
+        width: 25%;
+        text-align: center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        overflow: hidden;
+}
+.photos {
+        max-height: 200px;
+        vertical-align: middle;
+        overflow: hidden;
+        /*float: left;*/
+        display: inline-block;
+        margin-left:1px;
+        margin-right:1px;
+        margin-top: auto;
+        margin-bottom: auto;
+        vertical-align : middle;
+}
+.photos .minimg {
+ /*   height: 200px;*/
+    max-width: 100%;
+    height: 240px;
+    width: 240px;
+    margin-left: 3px;
+
+    text-align: center;
+/*    position: relative;*/
+    float: left;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1px;
+    overflow: hidden;
+
+}
+.right_wrapper {
+	display: inline;
+	 overflow: hidden;
+	padding: 2px 2px 2px 2px
+	white-space: nowrap;
+}
+.right_box {
+	  border: 2px solid;
+         border-radius: 25px;
+	display: inline;
+	width: 50px;
+	padding: 0px 0px 0px 2px;
+}
+
+
+.defaultbutton {
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: .8em;
+  letter-spacing: .1em;
+  line-height: 1em;
+  margin: 0 0 0 .5em;
+  padding: .75em 2em;
+  text-transform: uppercase;
+}
+
+.blue {	
+  color: white; 
+  background: #3288e6;
+}
+
+.green {
+	color: white;
+	background: #298A08;
+}
+
+.red {
+	color: white;
+	background: #DF0101;
+
+
+}
