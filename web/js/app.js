@@ -1,5 +1,5 @@
 ElasticHost="/es/"
-ElasticIndex="nmap_20141110/hosts/"
+ElasticIndex="nmap/hosts/"
 ElasticPath=ElasticHost + ElasticIndex
 
 angular.module('nmap', ['ngDialog'])
